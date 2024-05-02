@@ -1,6 +1,8 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 /*
+ *   Author - Shrajan Pandey
+ *
  *   All states associated with job openings
  */
 const initialState = {

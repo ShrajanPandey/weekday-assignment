@@ -6,6 +6,8 @@ import { useRef, useCallback } from "react";
 import { addJobs, updateOffset } from "../../redux/JobOpeningsSlice";
 
 /*
+ *  Author - Shrajan Pandey
+ *
  *  Component displaying the job list with infinite scroll
  */
 function JobCard() {
@@ -69,11 +71,7 @@ function JobCard() {
                     </div>
                     <div>
                         <h4>Minimum Experience: </h4>
-                        <h5>
-                            {currentJob.minExp
-                                ? currentJob.minExp
-                                : "Not Provided"}
-                        </h5>
+                        <h5>{currentJob.minExp ? currentJob.minExp : "Not Provided"}</h5>
                     </div>
                 </div>
                 <div className="action-buttons">
@@ -90,11 +88,7 @@ function JobCard() {
         return allJobOpenings.map((currentJob, index) => {
             if (allJobOpenings.length === index + 1) {
                 return (
-                    <div
-                        ref={lastJobCardRef}
-                        className="job-card"
-                        key={currentJob.jdUid}
-                    >
+                    <div ref={lastJobCardRef} className="job-card" key={currentJob.jdUid}>
                         {generateJobCard(currentJob)}
                     </div>
                 );

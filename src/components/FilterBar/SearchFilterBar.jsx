@@ -3,6 +3,8 @@ import SelectFilter from "./SearchFilter";
 import "./SelectFilterBar.css";
 
 /*
+ *   Author - Shrajan Pandey
+ *
  *   Component Generating the top Filter Bar with all Select filter
  */
 function SearchFilterBar() {

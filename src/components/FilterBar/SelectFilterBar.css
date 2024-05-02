@@ -1,4 +1,8 @@
-.select-filter-bar{
+/* 
+*   Author - Shrajan Pandey  
+*/
+
+.select-filter-bar {
     display: flex;
     flex-direction: row;
     justify-content: center;

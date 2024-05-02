@@ -1,3 +1,9 @@
+/*
+ *   Author - Shrajan Pandey
+ *
+ *   Function making API Calls and fetching Job data
+ */
+
 async function fetchJobListings(offset) {
     const myHeaders = new Headers();
     myHeaders.append("Content-Type", "application/json");
@@ -13,10 +19,7 @@ async function fetchJobListings(offset) {
         body: raw,
     };
 
-    const data = await fetch(
-        "https://api.weekday.technology/adhoc/getSampleJdJSON",
-        requestOptions
-    )
+    const data = await fetch("https://api.weekday.technology/adhoc/getSampleJdJSON", requestOptions)
         .then((response) => response.text())
         .then((result) => {
             return result;

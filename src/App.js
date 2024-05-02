@@ -6,6 +6,11 @@ import { useEffect } from "react";
 import { updateOffset, addJobs } from "./redux/JobOpeningsSlice";
 import FilterBar from "./components/FilterBar/SearchFilterBar";
 
+/*
+ *   Author - Shrajan Pandey
+ *
+ */
+
 function App() {
     const offset = useSelector((state) => state.offset);
     const dispath = useDispatch();
