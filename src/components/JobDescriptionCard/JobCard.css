@@ -1,0 +1,134 @@
+.job-card {
+    width: 350px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+    padding: 25px;
+    color: rgba(0, 0, 0, 0.87);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px 0px !important;
+    margin: 20px;
+    position: relative;
+}
+
+.job-card:hover {
+    transition: all 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transform: scale(101%);
+}
+
+h5,h1,h2,h6,h3,h4 {
+    padding: 0;
+    margin: 0;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    contain: content;
+    /* padding: 50px; */
+    width: 100%;
+}
+
+.apply-button,
+.referral-button {
+    text-decoration: none;
+    text-align: center;
+    border-color: wheat;
+    border: 1px solid gainsboro;
+    border-radius: 6px;
+    width: 90%;
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+    padding: 10px 16px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.description-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin-bottom: 7px; */
+}
+
+.company-logo {
+    width: 40px;
+    height: 40px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.job-posted {
+    font-size: x-small;
+    border: 1px solid rgb(213, 208, 208);
+    border-radius: 10px;
+    padding: 5px;
+    width: 90px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.open-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(0, 0, 255, 0.78);
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.detailed-role-description {
+    overflow-y: hidden;
+    max-height: 30vh;
+    mask-image: linear-gradient(
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgba(255, 255, 255, 0)
+    );
+}
+
+.location {
+    padding: 0;
+    padding-top: 7px;
+    padding-bottom: 3px;
+    margin: 0;
+    font-size: medium;
+    font-weight: 500;
+}
+
+.about-company-heading {
+    margin: 0;
+    font-weight: 510;
+}
+
+.about-company {
+    margin-bottom: 15px;
+}
+
+.apply-button {
+    /* padding: 10px 10px; */
+    background-color: rgb(85, 239, 196);
+    font-weight: 600;
+}
+
+.referral-button {
+    /* padding: 10px 20px; */
+    background-color: rgb(79, 55, 235);
+    color: rgb(255, 255, 255, 0.85);
+    font-weight: 600;
+}
+
+.company-details {
+    margin-left: 10px;
+}
