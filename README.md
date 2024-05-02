@@ -5,11 +5,12 @@
 
 ### FUNCTIONALITIES
 1. Infinite Scroll ( Implemented )
-2. Filter based on fields present in response can be done ( A Small bug still remains here )
-3. Responsive to some extent
+2. Filter based on fields which are present in response can be done ( A Small bug still remains here )
+3. Almost Responsive
+
 
 Assignment Started - 1st May 7:00 PM
-Assignment Ended - 2rd May 1:00 AM
+Assignment Ended - 3rd May 1:00 AM
 
 
 ### TO BUILD LOCALLY AND TEST 
